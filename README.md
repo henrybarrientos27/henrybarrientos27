@@ -1,16 +1,21 @@
-## Hi there 👋
+# Henry Barrientos
 
-<!--
-**henrybarrientos27/henrybarrientos27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Python-focused student developer building automation tools, research simulations, data-analysis scripts, and business workflow software.
 
-Here are some ideas to get you started:
+## Focus
+- Python automation
+- Data analysis
+- CSV/log processing
+- Trading analytics tools
+- Research simulations
+- Backend/API development
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+- Quant Engine — Monte Carlo and GBM-based strategy stress testing
+- Sentient Sim — multi-agent emergence simulation
+- BrAInstorm — financial-advisor workflow software
+- OSB1 — Python scoring/API project
+- Project Lumen — experimental research concept
+
+## Tech
+Python, pandas, NumPy, TypeScript, Next.js, PostgreSQL, Prisma, Supabase, Git
