@@ -15,14 +15,14 @@ I’m especially interested in Python automation, backend development, trading a
 
 ## Featured Projects
 
-### Quant Engine
-Python-based Monte Carlo and risk-analysis demo for trading research.
+### MNQ Sweep Backtest
+Python backtesting and trade-log analysis for MNQ sweep/reclaim strategy research.
+
+### Barrientos Shortcut Law
+Research notes and Python modeling for threshold-controlled nonlinear resonance behavior.
 
 ### Sentient Sim
 Python multi-agent simulation exploring emergent behavior, symbolic patterns, and agent-state dynamics.
-
-### OSB1
-Python scoring and leaderboard system with baselines, demo files, and scorer logic.
 
 ### BrAInstorm
 Financial-advisor workflow software prototype built with Next.js, TypeScript, Prisma, Supabase, and PostgreSQL.
