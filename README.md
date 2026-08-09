@@ -15,7 +15,7 @@ keeps target failures, input/output hashes, measured event windows, a writable
 review queue, and a static report without copying the original light curves.
 
 I built the product direction after completing a locked 1,000-target benchmark
-with 2,180 method records and two independent 22-check completion audits. The
+with 2,180 method records and matching server and local 22-check audits. The
 benchmark did **not** establish general comparative superiority. That negative
 result led to a narrower, testable question: can the queue save astronomers
 review time without hiding events they consider important?
