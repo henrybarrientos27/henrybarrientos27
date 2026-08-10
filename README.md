@@ -7,12 +7,14 @@ between what the evidence shows and what still needs to be tested.
 
 ## Flagship astronomy work
 
-### [OMEGA Event Triage](https://github.com/henrybarrientos27/omega-event-triage)
+### [OMEGA Event Triage — public evidence](https://github.com/henrybarrientos27/omega-evidence-showcase)
 
-An installable research-alpha package that converts CSV, Parquet, or public
-TESS light curves into compact, ranked event queues for human review. Each run
-keeps target failures, input/output hashes, measured event windows, a writable
-review queue, and a static report without copying the original light curves.
+A private research-alpha system that converts CSV, Parquet, or public TESS
+light curves into compact, ranked event queues for human review. Each run keeps
+target failures, input/output hashes, measured event windows, a writable review
+queue, and a static report without copying the original light curves. The
+public evidence showcase preserves the benchmark, sample output, failures, and
+authorship record without distributing the executable engine.
 
 I built the product direction after completing a locked 1,000-target benchmark
 with 2,180 method records and matching server and local 22-check audits. The
@@ -20,9 +22,9 @@ benchmark did **not** establish general comparative superiority. That negative
 result led to a narrower, testable question: can the queue save astronomers
 review time without hiding events they consider important?
 
-- [v0.1.0 release and compact benchmark evidence](https://github.com/henrybarrientos27/omega-event-triage/releases/tag/v0.1.0)
-- validated public-TESS sample report for TIC 31065777
-- documented pilot, commercial, benchmark, and development-failure boundaries
+- [benchmark conclusion, verification hashes, and development record](https://github.com/henrybarrientos27/omega-evidence-showcase)
+- validated public-TESS sample review sheet for TIC 31065777
+- documented pilot, benchmark, AI-authorship, and development-failure boundaries
 
 ### [TIC 31065777 eclipse-like event study](https://github.com/henrybarrientos27/tic-31065777-eclipse)
 
