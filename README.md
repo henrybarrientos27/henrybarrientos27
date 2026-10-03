@@ -1,78 +1,46 @@
 # Henry Barrientos
 
-I am a student developer focused on reproducible scientific software, Python
-data systems, and product prototypes. I like projects where a result can be
-checked: frozen inputs, tests, hashes, negative results, and clear boundaries
-between what the evidence shows and what still needs to be tested.
+I build research software in Python, with a focus on astronomy and results
+someone else can check. My work includes TESS light-curve analysis, reproducible
+simulations, and tools for reviewing evidence. I keep failed tests and negative
+results visible, because they help determine what to do next.
 
-## Flagship astronomy work
+## Astronomy
 
-### [OMEGA Event Triage — public evidence](https://github.com/henrybarrientos27/omega-evidence-showcase)
+**[Five TESS Eclipses of TIC 31065777 at a 40.5717 day Period](https://doi.org/10.3847/2515-5172/ae9b07)**
 
-A private research-alpha system that converts CSV, Parquet, or public TESS
-light curves into compact, ranked event queues for human review. Each run keeps
-target failures, input/output hashes, measured event windows, a writable review
-queue, and a static report without copying the original light curves. The
-public evidence showcase preserves the benchmark, sample output, failures, and
-authorship record without distributing the executable engine.
+Published in *Research Notes of the AAS* **10**, 242 (2026). The study reports
+five recurring eclipse-like events in public TESS data; it does not establish
+the companion class or confirm a planet. RNAAS is moderated, not peer-reviewed.
 
-I built the product direction after completing a locked 1,000-target benchmark
-with 2,180 method records and matching server and local 22-check audits. The
-benchmark did **not** establish general comparative superiority. That negative
-result led to a narrower, testable question: can the queue save astronomers
-review time without hiding events they consider important?
+[Analysis and reproducibility](https://github.com/henrybarrientos27/tic-31065777-eclipse)
+· [Existing software/data archive](https://doi.org/10.5281/zenodo.21662098)
 
-- [benchmark conclusion, verification hashes, and development record](https://github.com/henrybarrientos27/omega-evidence-showcase)
-- validated public-TESS sample review sheet for TIC 31065777
-- documented pilot, benchmark, AI-authorship, and development-failure boundaries
+**[OMEGA — public evidence](https://github.com/henrybarrientos27/omega-evidence-showcase)**
 
-### [TIC 31065777 eclipse-like event study](https://github.com/henrybarrientos27/tic-31065777-eclipse)
+My astronomy-software project for organizing light-curve events and supporting
+evidence for human review. The implementation and ongoing product work are
+private. The public showcase includes a real sample review sheet, provenance,
+and the limits of a frozen 1,000-target benchmark. That benchmark did not
+establish general detector superiority. The next research question is whether
+the review workflow helps astronomers make decisions without hiding important
+events.
 
-A reproducible investigation of five recurring eclipse-like events associated
-with TIC 31065777 in public TESS observations. The project includes independent
-measurement and replication paths, quality-control ledgers, machine-readable
-evidence, tests, and a public citable release.
+## Other selected work
 
-- [Zenodo DOI: 10.5281/zenodo.21662098](https://doi.org/10.5281/zenodo.21662098)
-- publication status: citable research package with an unpublished manuscript;
-  no journal publication or peer review is claimed
+| Project | What to inspect |
+|---|---|
+| [Sentient Sim](https://github.com/henrybarrientos27/sentient_sim) | Adaptive-agent simulation with paired causal ablations; no consciousness claim |
+| [Computational Spacetime Lab](https://github.com/henrybarrientos27/computational-spacetime-lab) | Numerical models and physical constraints; no working-portal or new-law claim |
+| [BrAInstorm](https://github.com/henrybarrientos27/brainstorm) | Advisor-workflow application prototype; not ready for real client data |
+| [MNQ Sweep Backtest](https://github.com/henrybarrientos27/mnq-sweep-backtest) | Small trade-log accounting fixture; not evidence of profitability |
 
-## Other research and engineering
+Archived repositories preserve earlier experiments. The projects above are the
+best starting points for my current portfolio.
 
-### [Sentient Sim](https://github.com/henrybarrientos27/sentient_sim)
+## Working style
 
-A reproducible causal-ablation test bed for adaptive mechanisms in a
-resource-limited multi-agent simulation. It uses paired seeds, cost-matched
-controls, frozen protocols, and explicit language that complex behavior is not
-evidence of consciousness.
-
-### [Computational Spacetime Lab](https://github.com/henrybarrientos27/computational-spacetime-lab)
-
-A 36-test numerical lab for finding where proposed spacetime shortcuts fail.
-It covers relativistic travel, Alcubierre and wormhole stress-energy,
-extra-dimensional models, an official-data CMS monojet likelihood
-reproduction, hidden-neutron transfer, geometry degeneracy, and beamline
-engineering limits. It does not claim a new physical law or a working portal.
-
-### [BrAInstorm](https://github.com/henrybarrientos27/brainstorm)
-
-A Next.js, TypeScript, Prisma, PostgreSQL, and OpenAI prototype for organizing
-financial-advisor workflows and draft summaries. It is deliberately labeled a
-prototype and is not approved for real client data without independent
-security, privacy, and compliance review.
-
-### [MNQ Sweep Backtest](https://github.com/henrybarrientos27/mnq-sweep-backtest)
-
-A small public-safe trade-log analysis fixture with tested outcome accounting.
-It demonstrates software structure and evidence limits; the sample is not
-presented as proof of profitability.
-
-## Tools and working style
-
-Python, NumPy, pandas, SciPy, Astropy, Lightkurve, SQL, TypeScript, Next.js,
-React, Prisma, PostgreSQL, GitHub Actions, public scientific APIs, reproducible
-artifacts, statistical validation, and failure-first debugging.
-
-AI-assisted development contributed substantially across these projects. I am
-responsible for understanding, testing, operating, and accurately presenting
-the work; each major repository states its authorship and evidence boundary.
+Python, scientific data analysis, TypeScript, and reproducible software.
+I value clear inputs, tests, provenance, and a distinction between an interesting
+result and a supported claim. AI-assisted development contributed substantially;
+I am responsible for reviewing, testing, and accurately presenting the work.
